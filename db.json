@@ -1,7 +1,34 @@
 {
-"data": [
+  "roleData": [
     { 
-     "displayName":"Aneesh"   
+    "role": "auditeeSponsor",
+    "tor": "true",
+    "discussionNotes": "false",
+    "finalizedActionPlans": "true",
+    "draftAuditReport": "true",
+    "finalAuditReport":"false", 
+    "reminderActionPlanClosure":"true",
+    "actionPlanClosure": "true"},
+    
+    { 
+    "role": "auditeeKeyManagementTeam",
+    "tor": "true",
+    "discussionNotes": "false",
+    "finalizedActionPlans": "true",
+    "draftAuditReport": "true",
+    "finalAuditReport":"false", 
+    "reminderActionPlanClosure":"true",
+    "actionPlanClosure": "true"},
+    
+    { 
+    "role": "auditeeKeyStakeholders",
+    "tor": "true",
+    "discussionNotes": "false",
+    "finalizedActionPlans": "true",
+    "draftAuditReport": "true",
+    "finalAuditReport":"false", 
+    "reminderActionPlanClosure":"true",
+    "actionPlanClosure": "true"
     }
   ]
-  }
+}
