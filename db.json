@@ -32,7 +32,7 @@
     }
   ],
   "roleDataAudit": [
-    { 
+    {  
     "role": "auditeeSponsor",
     "tor": true,
     "discussionNotes": false,
