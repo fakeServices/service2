@@ -12,22 +12,22 @@
     
     { 
     "role": "auditeeKeyManagementTeam",
-    "tor": true,
-    "discussionNotes": false,
-    "finalizedActionPlans": true,
-    "draftAuditReport": true,
-    "finalAuditReport":false, 
-    "reminderActionPlanClosure":true,
-    "actionPlanClosure": true},
+    "tor": false,
+    "discussionNotes": true,
+    "finalizedActionPlans": false,
+    "draftAuditReport": false,
+    "finalAuditReport":true, 
+    "reminderActionPlanClosure":false,
+    "actionPlanClosure": false},
     
     { 
     "role": "auditeeKeyStakeholders",
     "tor": true,
-    "discussionNotes": false,
+    "discussionNotes": true,
     "finalizedActionPlans": true,
-    "draftAuditReport": true,
+    "draftAuditReport": false,
     "finalAuditReport":false, 
-    "reminderActionPlanClosure":true,
+    "reminderActionPlanClosure":false,
     "actionPlanClosure": true
     }
   ],
