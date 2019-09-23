@@ -33,8 +33,18 @@
   ],
   "roleDataAudit": [
     {  
-    "role": "auditeeSponsor",
-    "tor": true,
+    "role": "auditSponsor",
+    "tor": false,
+    "discussionNotes": true,
+    "finalizedActionPlans": false,
+    "draftAuditReport": true,
+    "finalAuditReport":false, 
+    "reminderActionPlanClosure":true,
+    "actionPlanClosure": true},
+    
+    { 
+    "role": "auditKeyManagementTeam",
+    "tor": false,
     "discussionNotes": false,
     "finalizedActionPlans": true,
     "draftAuditReport": true,
@@ -43,18 +53,8 @@
     "actionPlanClosure": true},
     
     { 
-    "role": "auditeeKeyManagementTeam",
-    "tor": true,
-    "discussionNotes": false,
-    "finalizedActionPlans": true,
-    "draftAuditReport": true,
-    "finalAuditReport":false, 
-    "reminderActionPlanClosure":true,
-    "actionPlanClosure": true},
-    
-    { 
-    "role": "auditeeKeyStakeholders",
-    "tor": true,
+    "role": "auditKeyStakeholders",
+    "tor": false,
     "discussionNotes": false,
     "finalizedActionPlans": true,
     "draftAuditReport": true,
@@ -65,7 +65,7 @@
   ],
   "roleDataLod2": [
     {  
-    "role": "auditeeSponsor",
+    "role": "lod2Sponsor",
     "tor": true,
     "discussionNotes": false,
     "finalizedActionPlans": true,
@@ -75,21 +75,21 @@
     "actionPlanClosure": true},
     
     { 
-    "role": "auditeeKeyManagementTeam",
+    "role": "lod2KeyManagementTeam",
     "tor": true,
     "discussionNotes": false,
     "finalizedActionPlans": true,
-    "draftAuditReport": true,
+    "draftAuditReport": false,
     "finalAuditReport":false, 
     "reminderActionPlanClosure":true,
     "actionPlanClosure": true},
     
     { 
-    "role": "auditeeKeyStakeholders",
+    "role": "lod2KeyStakeholders",
     "tor": true,
     "discussionNotes": false,
-    "finalizedActionPlans": true,
-    "draftAuditReport": true,
+    "finalizedActionPlans": false,
+    "draftAuditReport": false,
     "finalAuditReport":false, 
     "reminderActionPlanClosure":true,
     "actionPlanClosure": true
